@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+div h1 {
+	float: left;
+	font-family: Lucida Console, monospace;
+	text-transform: uppercase;
+	color: #663399;
+	margin: 10px;
+	font-size: 36pt;
+}
+header ul {
+	list-style-type: none;	
+}
+li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Verdana, sans-serif;
+	display: inline-block;	
+	padding: 20px;
+	float: right;
+	color: lightgrey;
+	font-weight: bold;
+}
+li a:hover {
+	background-color: antiquewhite;
+	color: black;
+}
+li a:active {
+	color: #663399
+}
+section img {
+	max-width: 100%;
+	border-radius: 10px
+}
+aside div {
+	margin: 7px;
+	padding: 20px;
+	background-color: antiquewhite;
+	width: 30%;
+	float: left;
+	border-radius: 10px
+}
+aside div h2 {
+	font-family: Verdana, sans-serif;
+	color: dimgrey;
+}
+footer {
+	padding: 10px;
+	clear: both;
+	background-color: grey;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+footer p {
+	text-align: center;
+	color: antiquewhite;
+
+}
